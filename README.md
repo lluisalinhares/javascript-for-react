@@ -1,3 +1,3 @@
 # JavaScript for React
 
-🔹 <p>some fundamental javascript concepts for react</p>
+🔹 <p>Some fundamentals <b>J</b>ava<b>S</b>cript concepts for react.</p>
