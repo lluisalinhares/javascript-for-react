@@ -1,0 +1,49 @@
+.titulo {
+    text-align: center;
+    font-variant: small-caps;
+    color: black;
+}
+
+.botao_h {
+    padding: 6px;
+    margin-left: 400px;
+}
+
+body {
+    margin-left: 15px;
+    /*border: 4px solid rgba(37, 37, 1, 0.726);
+    border-style: double;*/
+    
+}
+
+.divmaior {
+    border: 4px double rgba(37, 37, 1, 0.726);
+   
+    /*border-width: 500px;*/
+}
+
+.div {
+    margin: 30px;
+    margin-left: 100px; 
+}
+
+.paragrafo {
+    font-variant: small-caps;
+    font-weight: bolder;
+    color: rgba(102, 98, 38, 0.712);
+}
+
+.exercicio {
+    color: rgba(141, 137, 137, 0.418);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.botao {
+    padding: 8px;
+}
+
+.footer {
+    padding: 20px;
+    margin-left: 300px;
+    text-align: center;
+}

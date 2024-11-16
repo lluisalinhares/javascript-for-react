@@ -1,0 +1,27 @@
+.botao {
+    padding: 10px;
+    background-color: rgb(211, 201, 201);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    border: 1px solid black;
+
+}
+
+.botao:hover {
+    background-color: lightgray;
+    transition: 0.5;
+}
+
+.botao2 {
+    padding: 10px;
+    background-color: rgb(211, 201, 201);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: large;
+}
+
+.botao2:hover {
+    background-color: lightgray;
+    transition: 0.5;
+}

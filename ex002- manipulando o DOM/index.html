@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo JS (ex.02)</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1 class="titulo">Manipulando o <code>DOM</code></h1>
+    </header>
+    <div class="divmaior">
+        <div class="div">
+            <!--Primeiro-->
+            <h2 class="exercicio">Exemplo 1</h2>
+            <h3>Modificando o texto abaixo</h3>
+            <p class="paragrafo">Hello, World! </p>
+            <div id="espaco">
+                <p>Seja bem-vind@...?</p>
+            </div>
+            <br>
+            <button class="botao" onclick="document.getElementById('espaco').innerHTML = 'Seja bem-vind@ ' + prompt('Qual seu nome? ') + '!'";>Digite seu nome</button>
+            <!--Penso nesta linha de "código" html como se fosse um comando: -->
+            <!--Quando o botão for clicado, vá no documento, pegue o elemento que contém o id 'area', vá dentro deste HTML e substitua o conteúdo do id...por um prompt que exibe uma mensagem: 'Qual seu nome?'.-->
+            <!--Qualquer coisa que for colocada depois(ou, dentro) do 'innerHTML' vai substituir o conteúdo do id 'area'-->
+            <br><br>
+        </div>
+        
+        <div class="div">
+            <!--Segundo-->
+            <h2 class="exercicio">Exemplo 2</h2>
+            <h3>Substituindo o nome do botão</h3>
+            <div id="">
+                <p>Modifique o nome do botão</p>
+            </div>
+            <br>
+            <button class="botao" onclick="this.innerHTML = prompt('Insira meu novo nome: ')";>Modifique meu nome</button>
+            <br><br>
+        </div>
+        
+        <div class="div">
+            <!--Terceiro-->
+            <h2 class="exercicio">Exemplo 3</h2>
+            <h3>Repetindo o exemplo 1 utilizando uma função</h3>
+            <div id="area">
+                <p>Modifique este texto</p>
+            </div>
+            <br>
+        
+            <button class="botao" onclick="entrar()">Digite uma mensagem</button>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer">
+            <button class="botao_h" onclick="window.location.href = window.location.href">Atualizar página</button>
+        </div>
+    </footer>
+</body>
+</html>
